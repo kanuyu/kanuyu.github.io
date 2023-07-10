@@ -1,28 +1,141 @@
 <!DOCTYPE html>
 	<head>
-		<meta property="og:title" content="kanuyu"/>
-		<meta property="og:description" content="soooooooooooooooooooooooo"/>
-		<meta name="theme-color" content="#395cf1">
+		<meta property="og:title" content="Kanuyu"/>
+		<meta property="og:image" content="favicon.png">
+
+		<meta charset="utf-8">
+		<meta name="theme-color" content="#fabd2r1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>kanuyu</title>
 
-		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+		<script src="https://kit.fontawesome.com/694c62599b.js" crossorigin="anonymous"></script>
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="style.css">
 	</head>
 
 	<body>
 		<div class="navigation-bar">
+			<img draggable=false src="logo.svg" width="75" height="50"/>
+
 			<ul>
-				<li><a href="">Home</a></li>
-				<li>|</li>
-				<li><a href="">Order scat</a></li>
+				<li><a href="https://kanuyu.github.io/" draggable=false>Home</a></li>
 			</ul>
 		</div>
 
 		<div class="social-bar">
-			<a>Powered by </a>
-			<a href="http://iloveloli.art">Lolinet</a>
-			<a>.</a>
+            <a href="http://iloveloli.art"/>Powered by Lolinet ⚡</a>
+
+			<span>
+				<a href="https://www.youtube.com/@closecuppy" draggable=false><i class="fa-brands fa-youtube"></i></a>
+				<a href="https://discord.gg/qFcnVsM6Sa"draggable=false><i class="fa-brands fa-discord"></i></a>
+				<a href="https://github.com/kanuyu" draggable=false><i class="fa-brands fa-github"></i></a>
+			</span>
 		</div>
+
+		<br>
 	</body>
+
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@450&display=swap');
+
+		:root {
+		  --red: #cc241d;
+		  --green: #98971a;
+		  --yellow: #d79921;
+		  --blue: #458588;
+		  --purple: #b16286;
+		  --aqua: #689d6a;
+		  --gray: #a89984;
+
+		  --bg0_h: #1d2021;
+		  --bg0: #282828;
+		  --bg1: #3c3836;
+		  --bg2: #504945;
+		  --bg3: #665c54;
+		  --bg4: #7c6f64;
+
+		  --fg0: #fbf1c7;
+		  --fg1: #ebdbb2;
+		  --fg2: #d5c4a1;
+		  --fg3: #bdae93;
+		  --fg4: #a89984;
+		}
+
+		.navigation-bar {
+			background-color: var(--bg0_h);
+			justify-content: space-between;
+			display: flex;
+			z-index: 999;
+			top: 0;
+		}
+
+		.navigation-bar ul li {
+			display: inline-block;
+			list-style: none;
+			margin: 0 20px;
+		}
+
+		.navigation-bar ul li a {
+			text-decoration: none;
+		}
+
+		.social-bar {
+			background-color: var(--bg0);
+			position: fixed;
+			z-index: 999;
+			width: 100%;
+			height: 4%;
+			bottom: 0;
+		}
+
+		.social-bar a {
+			text-decoration: none;
+			position: relative;
+			left: 0.8%;
+			top: 20%;
+		}
+
+		.social-bar span {
+			position: absolute;
+			right: 0.7%;
+			top: 25%;
+		}
+
+		.social-bar span i {
+			margin: 0 2px;
+		}
+
+
+		/* --------------------------------- */
+
+		* {
+			color: var(--fg0);
+			font-family: 'Montserrat', sans-serif;
+		}
+
+		::-moz-selection {
+		  color: null;
+		  background: null;
+		}
+
+		::selection {
+		  color: null;
+		  background: null;
+		}
+
+		input {
+			background-color: var(--bg1);
+			box-shadow: none;
+			border: 0;
+		}
+
+		body {
+			background-color: var(--bg0);
+			margin: 0;
+		}
+	</style>
+
+	<script>
+	</script>
 </html>
